@@ -11,7 +11,8 @@ html, body {
 
 .container {
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 20px auto;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 .columns-2 {
     width: 100%;
@@ -20,9 +21,171 @@ html, body {
 }
 
 .left-column {
-    width: 41%;
+    width: 35%;
 }
 
 .right-column {
-    width: 59%;
+    width: 65%;
+}
+
+
+/*Nav*/
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    background: #505050;
+    padding: 8px 10px;
+}
+.navigation_item {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: white;
+}
+/*Header*/
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+    gap: 20px;
+}
+.photo {
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+h1 {
+    font-size: 3rem;
+    color: #505050;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+main {
+    background: #a6b5e7;
+}
+/*Contacts*/
+.contacts,
+.skills,
+.languages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom:40px;
+    
+}
+.contacts_title,
+.skills_title,
+.languages_title {
+    background: #505050;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 1.8rem;
+    transform: translate(0,-50%);
+}
+.contacts__list,
+.skills__list,
+.languages__list
+ {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contacts_item,
+.skills_item,
+.languages_item {
+    font-size: 1.7rem;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.bold_title {
+    font-weight: 700;
+}
+
+
+
+
+/*AboutMyself*/
+.right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    padding: 30px;
+}
+
+.about-myself_title,
+.education_title,
+.code-example-title {
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    color: #505050;
+    border-bottom: 2px solid #505050;
+    margin-bottom: 10px;
+}
+
+.text_about-me {
+    font-size: 1.6rem;
+    color: #505050;
+    font-weight: regular;
+    margin-bottom: 30px;
+}
+
+
+/*Education*/
+.univers {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #505050;
+}
+.special {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #505050;
+}
+.years {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #505050;
+}
+/*CodeExample*/
+.code-example-text {
+    font-size: 1.6rem;
+    color: #505050;
+    font-weight: regular;
+    margin-bottom: 30px;
+}
+
+
+
+
+/*Footer*/
+.footer_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    background: #505050;
+    padding: 8px 10px;
+    align-items: center;
+}
+
+.footer-item {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color:white
+}
+
+.git-link {
+    text-decoration: none;
+    color: white;
+    text-transform: none;
+}
+.logo {
+    width: 73px;
+    height: 26px;
+    background: url(../assets/rs_school_js.svg) no-repeat;
 }
