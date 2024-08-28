@@ -1,3 +1,2 @@
 # rsschool-cv
-https://RazumauMikita.github.io/rsschool-cv/cv
-https://RazumauMikita.github.io/rsschool-cv/
+[https://github.com/RazumauMikita/rsschool-cv/blob/gh-pages/cv.md](https://github.com/RazumauMikita/rsschool-cv/blob/gh-pages/cv.md)
